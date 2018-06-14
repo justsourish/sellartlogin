@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-div {
+    width: 450px;
+    margin: 20px auto;
+    
+    background: rgb(255, 255, 255, 0.5)
+}
+
+.login-header {
+    background-color: #1DABAD;
+    color: #fff;
+    text-align: center;
+}
+
+.login-header p {
+    font-size: 40px;
+    font-weight: 100;
+    padding: 30px;
+}
+
+.login-bottom {
+    margin: 20px;
+
+    height: 500px;
+}
