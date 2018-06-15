@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+
 
 * {
     margin: 0;
@@ -20,6 +21,9 @@ html, body {
 .login-div {
     width: 450px;
     margin: 20px auto;
+    font-weight: 300;
+
+    color: #fff;
     
     background: rgb(255, 255, 255, 0.5)
 }
@@ -30,14 +34,77 @@ html, body {
     text-align: center;
 }
 
-.login-header p {
-    font-size: 40px;
-    font-weight: 100;
-    padding: 30px;
+.login-header h1 {
+    font-size: 55px;
+    font-weight: 300;
+    padding: 25px;
 }
 
 .login-bottom {
-    margin: 20px;
+    margin: 40px;
 
     height: 500px;
+}
+
+.login-bottom .input {
+    width: 100%;
+    height: 25px;
+    border: 0;
+
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    
+    background-color: #F0F0F0;
+}
+
+.label {
+    font-size: 30px;
+}
+
+.btn-submit {
+    padding: 5px;
+    margin: 10px auto;
+    width: 102.5%;
+    height: 35px;
+
+    border: 0;
+
+    background: #fff;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.forgot-password a {
+    color: #F0F0F0;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.login-btn {
+    background-color: #fff;
+    width: 100%;
+    height: 25px;
+    display: block;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+
+    text-decoration: none;
+    color: #010101;
+}
+
+.fa-google-plus {
+    color: #DB4437;
+}
+
+.fa-facebook {
+    color: #395799;
+}
+
+.fa-github {
+    color: #010101;
 }

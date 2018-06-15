@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="style.css">
     <title>SellArt Login</title>
 </head>
@@ -12,28 +13,31 @@
     <div class="main">
         <div class="login-div">
             <div class="login-header">
-                <p>SellArt Login</p>
+                <h1>SellArt Login</h1>
             </div>
         
             <div class="login-bottom">
                 <form action="">
-                    Username:
-                    <input type="text" placeholder="username here"> Password:
-                    <input type="password" placeholder="password here">
-                    <input type="submit" value="login">
+                    <span class="label">Username:</span> <br>
+                    <input class="input" type="text" placeholder="username here"><br>
+                    <span class="label">Password:</span> <br>
+                    <input class="input" type="password" placeholder="password here"><br>
+                    <input class="btn-submit" type="submit" value="login">
                 </form>
                 
-                <a href="#">forgot password?</a>
+                <div class="forgot-password">
+                    <a href="#">forgot password?</a>
+                </div>
                 
                 <hr>
+                <br>
                 
                 <h2>OR</h2>
                 
                 <form action="" class="social-login">
-                    <a href="#" class="login-btn">Google</a>
-                    <a href="#" class="login-btn">Facebook</a>
-                    <a href="#" class="login-btn">Github</a>
-                    <a href="#" class="login-btn">SecureAuth</a>
+                    <a href="#" class="login-btn"><i class="fab fa-google-plus"></i> Google</a>
+                    <a href="#" class="login-btn"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#" class="login-btn"><i class="fab fa-github"></i> Github</a>
                 </form>
             </div>
         
